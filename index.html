@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ternary didalam ternary</title>
+</head>
+<body>
+    <script>
+        var jwb = prompt("apakah kamu sekolah?");
+        var jawaban = (jwb.toUpperCase() == "IYA") ? "kamu pintar": (jwb.toUpperCase() =="TIDAK") ? (prompt
+        ("apakah kamu bekerja?").toUpperCase() == "IYA") ?  "kamu pintar" : "kamu pengangguran" :"salah";
+    
+        document.write(`anda: <b>${jawaban}</b>`);
+    </script>
+</body>
+</html>
